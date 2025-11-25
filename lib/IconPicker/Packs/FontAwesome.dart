@@ -9558,7 +9558,7 @@ Map<String, IconData> fontAwesomeIcons = {
   /// Solid Vector Square icon
   ///
   /// https://fontawesome.com/icons/vector-square?style=solid
-  'vectorSquare': FontAwesomeIcons.vectorSquare,
+  'vectorSquare': IconDataSolid(0xf5cb),
 
   /// Solid Venus icon
   ///
