@@ -15,6 +15,12 @@ part 'src/icon_data/cupertino_icons.dart';
 part 'src/icon_data/font_awesome_icons.dart';
 part 'src/icon_data/line_awesome_icons.dart';
 
+/// font_awesome_flutter 11+ wraps its icons in [FaIconData] instead of
+/// exposing [IconData] directly; unwrap once so the rest of the package
+/// can keep treating every pack uniformly as `Map<String, IconData>`.
+final Map<String, IconData> _fontAwesomeIcons =
+    _fontAwesomeIconsRaw.map((key, value) => MapEntry(key, value.data));
+
 /// The IconPack defines which Icons are gonna be loaded
 enum IconPack {
   /// The official Material Icons by Flutter

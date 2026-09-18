@@ -1,6 +1,6 @@
 part of '../../flutter_iconpicker.dart';
 
-Map<String, IconData> _fontAwesomeIcons = {
+Map<String, FaIconData> _fontAwesomeIconsRaw = {
   /// Solid 0 icon
   ///
   /// https://fontawesome.com/icons/0?style=solid
@@ -9553,11 +9553,6 @@ Map<String, IconData> _fontAwesomeIcons = {
   ///
   /// https://fontawesome.com/icons/vault?style=solid
   'vault': FontAwesomeIcons.vault,
-
-  /// Solid Vector Square icon
-  ///
-  /// https://fontawesome.com/icons/vector-square?style=solid
-  'vectorSquare': IconDataSolid(0xf5cb),
 
   /// Solid Venus icon
   ///
