@@ -1,7 +1,6 @@
-import 'package:flutter/material.dart';
-import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+part of '../../flutter_iconpicker.dart';
 
-Map<String, IconData> fontAwesomeIcons = {
+Map<String, IconData> _fontAwesomeIcons = {
   /// Solid 0 icon
   ///
   /// https://fontawesome.com/icons/0?style=solid

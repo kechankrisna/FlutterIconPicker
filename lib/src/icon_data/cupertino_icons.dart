@@ -1,13 +1,9 @@
-// Copyright 2014 The Flutter Authors. All rights reserved.
-// Use of this source code is governed by a BSD-style license that can be
-// found in the LICENSE file.
+part of '../../flutter_iconpicker.dart';
 
-import 'package:flutter/cupertino.dart';
+const String _cupertinoIconFont = 'CupertinoIcons';
+const String _cupertinoIconFontPackage = 'cupertino_icons';
 
-const String iconFont = 'CupertinoIcons';
-const String iconFontPackage = 'cupertino_icons';
-
-const Map<String, IconData> cupertinoIcons = {
+const Map<String, IconData> _cupertinoIcons = {
   /// <i class='cupertino-icons md-36'>chevron_left</i> &#x2014; Cupertino icon for a thin left chevron.
   /// This is the same icon as [chevron_left] in cupertino_icons 1.0.0+.
   'left_chevron': CupertinoIcons.left_chevron,
