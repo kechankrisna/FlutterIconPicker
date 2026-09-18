@@ -1,3 +1,12 @@
+## [3.3.0] - 18.09.2026
+
+* Renamed package to `flutter_iconpicker_ce` (community fork, published independently on pub.dev)
+* Restructured `lib/` into a single importable file (`flutter_iconpicker_ce.dart`); internal dialogs, controller, search bar, and icon-pack data are now private implementation details. Public API (`FlutterIconPicker.showIconPicker`, `IconPack`, `serializeIcon`, `deserializeIcon`) is unchanged
+* Updated dependencies:
+  * `cupertino_icons` to 1.0.9
+  * `font_awesome_flutter` to 11.0.0 (handled its `FaIconData` breaking change internally; no change to this package's public API)
+* Fixed a couple of small pre-existing issues surfaced while upgrading: a removed Flutter API (`MaterialStateProperty` → `WidgetStateProperty`) and one Font Awesome icon (`vector-square`) that no longer exists upstream
+
 ## [3.2.2] - 01.11.2022
 
 * 📝 Add Disclaimer to Readme (please read!)

@@ -1,18 +1,18 @@
 # FlutterIconPicker
 
-![ci](https://github.com/Ahmadre/FlutterIconPicker/actions/workflows/dart.yml/badge.svg)
-[![Version](https://img.shields.io/pub/v/flutter_iconpicker.svg)](https://pub.dev/packages/flutter_iconpicker)
-[![Generic badge](https://img.shields.io/badge/platform-android%20|%20ios%20|%20web%20|%20desktop-blue.svg)](https://pub.dev/packages/flutter_iconpicker)
+![ci](https://github.com/kechankrisna/FlutterIconPicker/actions/workflows/dart.yml/badge.svg)
+[![Version](https://img.shields.io/pub/v/flutter_iconpicker_ce.svg)](https://pub.dev/packages/flutter_iconpicker_ce)
+[![Generic badge](https://img.shields.io/badge/platform-android%20|%20ios%20|%20web%20|%20desktop-blue.svg)](https://pub.dev/packages/flutter_iconpicker_ce)
 
 This package provides an IconPicker with supported (or custom provided) Icons which can be picked through an AlertDialog. All Icons are mapped with its names in the IconData. This is necessary to make it possible to search through the icons. Fulltextsearch including a note if no results where found.
 
-![IconPicker](https://github.com/Ahmadre/FlutterIconPicker/blob/master/assets/FlutterIconPicker.png)
+![IconPicker](https://github.com/kechankrisna/FlutterIconPicker/blob/master/assets/FlutterIconPicker.png)
 
 ## Disclaimer (Important)
 
 This package is maintained regularly, is stable and is used in production by many software solutions out there (Thank you all at this point 🙏).
 
-> However, it is not guaranteed that all icons are displayed correctly -> **why**? -> flutter framework is constantly changing `codePoint`'s for example for `Icons.camera`. So if you develop an app which uses an older flutter version and flutter_iconpicker version, you're good to go, but if you want to update your app and flutter version, the `codePoint`'s could be broken and not matching to `Icons.camera` for example anymore!
+> However, it is not guaranteed that all icons are displayed correctly -> **why**? -> flutter framework is constantly changing `codePoint`'s for example for `Icons.camera`. So if you develop an app which uses an older flutter version and flutter_iconpicker_ce version, you're good to go, but if you want to update your app and flutter version, the `codePoint`'s could be broken and not matching to `Icons.camera` for example anymore!
 
 So what can we do?:
 
@@ -36,7 +36,7 @@ For example if you want to provide `material` icons, copy the actual icons from 
 
 ## Usage
 
-To use this package, add `flutter_iconpicker` as a [dependency in your pubspec.yaml file](https://flutter.io/platform-plugins/).
+To use this package, add `flutter_iconpicker_ce` as a [dependency in your pubspec.yaml file](https://flutter.io/platform-plugins/).
 
 ### Building
 
@@ -112,7 +112,7 @@ So if you plan to save the picked icon anywhere (sqflite, firebase, etc.), you c
 
 ```dart
 import 'package:flutter/material.dart';
-import 'package:flutter_iconpicker/flutter_iconpicker.dart';
+import 'package:flutter_iconpicker_ce/flutter_iconpicker_ce.dart';
 
 void main() {
   runApp(

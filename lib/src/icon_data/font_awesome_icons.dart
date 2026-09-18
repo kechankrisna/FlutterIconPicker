@@ -1,4 +1,4 @@
-part of '../../flutter_iconpicker.dart';
+part of '../../flutter_iconpicker_ce.dart';
 
 Map<String, FaIconData> _fontAwesomeIconsRaw = {
   /// Solid 0 icon

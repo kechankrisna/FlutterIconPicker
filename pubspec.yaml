@@ -1,9 +1,9 @@
-name: flutter_iconpicker
+name: flutter_iconpicker_ce
 description: A Dialog for picking Icons in Flutter and use them anywhere. Can be
   used as a default Dialog or as a Adaptive Dialog.
-version: 3.2.2
-homepage: https://github.com/Ahmadre
-repository: https://github.com/Ahmadre/FlutterIconPicker
+version: 3.3.0
+homepage: https://github.com/kechankrisna
+repository: https://github.com/kechankrisna/FlutterIconPicker
 environment:
   sdk: ">=3.9.2 <4.0.0"
   # flutter: '>=3.0.0'

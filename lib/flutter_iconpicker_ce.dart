@@ -3,7 +3,7 @@
 /// https://github.com/Ahmadre
 /// rebar.ahmad@gmail.com
 
-library flutter_iconpicker;
+library flutter_iconpicker_ce;
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';

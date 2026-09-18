@@ -1,4 +1,4 @@
-part of '../../flutter_iconpicker.dart';
+part of '../../flutter_iconpicker_ce.dart';
 
 const String _cupertinoIconFont = 'CupertinoIcons';
 const String _cupertinoIconFontPackage = 'cupertino_icons';

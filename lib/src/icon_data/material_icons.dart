@@ -1,4 +1,4 @@
-part of '../../flutter_iconpicker.dart';
+part of '../../flutter_iconpicker_ce.dart';
 
 Map<String, IconData> _materialIcons = {
   /// <i class="material-icons md-36">10k</i> &#x2014; material icon named "10k".
